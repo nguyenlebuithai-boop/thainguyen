@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Trang Web Cá Nhân</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    }
+
+    .container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    header {
+        text-align: center;
+        padding: 20px;
+        color: white;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .box {
+        background: white;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        transition: 0.3s;
+    }
+
+    .box:hover {
+        transform: translateY(-5px);
+    }
+
+    .avatar {
+        text-align: center;
+    }
+
+    .avatar img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 4px solid #ff9a9e;
+    }
+
+    .info p {
+        margin: 6px 0;
+    }
+
+    .hobby ul {
+        padding-left: 20px;
+    }
+
+    .contact {
+        grid-column: span 2;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 15px;
+        padding: 10px;
+        color: white;
+        background: #333;
+        border-radius: 10px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>🌟 TRANG WEB CÁ NHÂN 🌟</h1>
+        <p>“Mỗi ngày là một cơ hội mới”</p>
+    </header>
+
+    <div class="grid">
+
+        <!-- Ảnh -->
+        <div class="box avatar">
+            <img src="Anhcuanguyen1.jpeg" alt="avatar">
+            <p><b>Ảnh đại diện</b></p>
+        </div>
+
+        <!-- Thông tin -->
+        <div class="box info">
+            <h2>Thông tin</h2>
+            <p><b>Họ tên:</b> Lê Bùi Thái Nguyên</p>
+            <p><b>Ngày sinh:</b> 11/03/2008</p>
+            <p><b>Lớp:</b> 12A6</p>
+            <p><b>Trường:</b> THPT Số 1 Nguyễn Huệ</p>
+        </div>
+
+        <!-- Sở thích -->
+        <div class="box hobby">
+            <h2>Sở thích</h2>
+            <ul>
+                <li>🍜 Ăn</li>
+                <li>🎮 Chơi game</li>
+                <li>vẽ manga</li>
+                <li>🚶‍♀️ Đi chơi</li>
+            </ul>
+        </div>
+
+        <!-- Liên hệ -->
+        <div class="box contact">
+            <h2>📞 Thông tin liên hệ</h2>
+            <p>Email: quoc39063@gmail.com</p>
+            <p>Facebook: Lê Bùi Thái Nguyên </p>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 - Web cá nhân của bạn ✨
+    </footer>
+
+</div>
+
+</body>
+</html>
